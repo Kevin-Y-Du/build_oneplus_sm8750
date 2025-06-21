@@ -30,12 +30,12 @@ read -p "输入选择 [1-4]: " device_choice
 case $device_choice in
     1)
         DEVICE_NAME="oneplus_ace5_pro"
-        REPO_MANIFEST="JiuGeFaCai_oneplus_ace5_pro_v.xml"
+        REPO_MANIFEST="oneplus_ace5_pro_v.xml"
         KERNEL_TIME="Wed Dec 4 02:11:46 UTC 2024"
         ;;
     2)
         DEVICE_NAME="oneplus_13"
-        REPO_MANIFEST="JiuGeFaCai_oneplus_13_v.xml"
+        REPO_MANIFEST="oneplus_13_v.xml"
         KERNEL_TIME="Tue Dec 17 23:36:49 UTC 2024"
         ;;
     3)
