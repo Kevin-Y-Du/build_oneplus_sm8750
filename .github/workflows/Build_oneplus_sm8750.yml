@@ -404,7 +404,7 @@ jobs:
       - name: 📦 Make AnyKernel3 (NoKPM)
         if: ${{inputs.enable_feature_x }}
         run: |
-          git clone https://github.com/showdo/AnyKernel3.git --depth=1 AnyKernel3_NoKPM
+          git clone https://github.com/Kevin-Y-Du/AnyKernel3.git --depth=1 AnyKernel3_NoKPM
           rm -rf ./AnyKernel3_NoKPM/.git
           rm -rf ./AnyKernel3_NoKPM/push.sh
           cp kernel_workspace/kernel_platform/common/out/arch/arm64/boot/Image ./AnyKernel3_NoKPM/
@@ -428,7 +428,7 @@ jobs:
          
       - name: 📦 Make AnyKernel3 (KPM)
         run: |
-         git clone https://github.com/showdo/AnyKernel3.git --depth=1      
+         git clone https://github.com/Kevin-Y-Du/AnyKernel3.git --depth=1      
          rm -rf ./AnyKernel3/.git
          rm -rf ./AnyKernel3/push.sh
          cp kernel_workspace/kernel_platform/common/out/arch/arm64/boot/Image ./AnyKernel3/
