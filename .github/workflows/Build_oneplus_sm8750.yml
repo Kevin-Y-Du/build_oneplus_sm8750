@@ -23,7 +23,7 @@ on:
         type: boolean
 
       custom_kernel_suffix:
-        description: "✏️ 自定义内核名称(示例:-TG@qdykernel) - 仅在取消勾选'保持原设置'时有效"
+        description: "✏️ 自定义内核名称(示例:-@DUGH) - 仅在取消勾选'保持原设置'时有效"
         required: false
         default: '-android15-8-g013ec21bba94-abogki383916444@DUGH'
       
