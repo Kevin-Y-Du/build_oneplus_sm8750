@@ -25,12 +25,12 @@ on:
       custom_kernel_suffix:
         description: "✏️ 自定义内核名称(示例:-TG@qdykernel) - 仅在取消勾选'保持原设置'时有效"
         required: false
-        default: ''
+        default: '-android15-8-g013ec21bba94-abogki383916444@DUGH'
       
       custom_kernel_time:
         description: "⏰ 自定义构建时间(示例:Tue Dec 17 23:36:49 UTC 2024) - 仅在取消勾选'保持原设置'时有效"
         required: false
-        default: ''
+        default: 'Tue Dec 17 23:36:49 UTC 2024'
       
       enable_feature_x:
         description: "生成无KPM的AK3 - 取消则只有有KPM的AK3"
