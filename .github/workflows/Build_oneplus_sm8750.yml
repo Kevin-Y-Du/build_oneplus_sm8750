@@ -201,14 +201,14 @@ jobs:
               cd kernel_workspace/kernel_platform
               curl -LSs "https://raw.githubusercontent.com/SukiSU-Ultra/SukiSU-Ultra/susfs-main/kernel/setup.sh" | bash -s susfs-main
               cd KernelSU
-              cp "${GITHUB_WORKSPACE}/.github/workflows/setup.bin" ./
-              chmod +x setup.bin
+              # cp "${GITHUB_WORKSPACE}/.github/workflows/setup.bin" ./
+              # chmod +x setup.bin
               if [ ! -f "kernel/Makefile" ]; then
                 echo "::error ::kernel/Makefile"
                 ls -la
                 exit 1
               fi
-              ./setup.bin
+              # ./setup.bin
       - name: 🔧 Set up SUSFS (配置 SUSFS)
         run: |
            cd kernel_workspace
